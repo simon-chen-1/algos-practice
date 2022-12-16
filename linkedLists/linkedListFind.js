@@ -1,7 +1,7 @@
 // Link to problem: https://structy.net/problems/linked-list-find
 
 // Iterative Approach:
-// // Initialize a variable/pointer called node to keep track of the current node. As long as the current
+// Initialize a variable/pointer called node to keep track of the current node. As long as the current
 // node is not null, we will check if its value is equal to the target. If it is, return true. Otherwise,
 // check the next node. Once the current node is null and we haven't found a node with a value that's equal
 // to the target, return false.
@@ -30,7 +30,7 @@ const linkedListFind = (head, target) => {
 // Recursive Approach:
 // If the input head is null, we can just return false (this is one of our base cases). If it is not null
 // and its value is equal to the target, we can return true (second base case). Otherwise, just recursively 
-// call our linkedListFind function, passing in the next node as its first argument. We will eturn the
+// call our linkedListFind function, passing in the next node as its first argument. We will return the
 // result of this recursive call.
 
 // Recursive Solution:
